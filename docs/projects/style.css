@@ -1,0 +1,119 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styling */
+body, html {
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* White text */
+    min-height: 100vh; /* Ensure full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Allows main to grow, but not shrink beyond its content */
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 2px solid #505050; /* Adjusted border color */
+    background-color: #fff; /* Background color for main content */
+    color: #000000; /* Text color for main content */
+}
+
+nav {
+    background-color: #1c1c1c; /* Darker background for nav */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    font-size: 1em;
+}
+
+h1, p {
+    color: #000000; /* Ensuring white text for these elements */
+}
+
+h2 {
+    color: #000000; /* Ensuring white text for these elements */
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #5865F2; /* Discord's brand color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.discord-invite {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.discord-link {
+    background-color: #fff;
+    color: #5865F2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.discord-link:hover {
+    background-color: #ebebeb;
+    color: #5865F2;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Footer styles */
+footer {
+    background-color: #5865F2; /* Discord's brand color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    main {
+        width: 95%;
+    }
+}
