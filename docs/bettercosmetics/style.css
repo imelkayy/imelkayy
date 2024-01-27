@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styling */
+body, html {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    min-height: 100vh; /* Adjust or remove this as needed */
+    /* Remove display, justify-content, and align-items properties */
+}
+
+.page-header {
+    text-align: center;
+    font-size: 6em;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+}
+
+.roadmap {
+    width: 80%; /* Adjust width as needed */
+    max-width: 2000px; /* Maximum width */
+    margin: 0 auto;
+    border: 2px solid white; /* White border */
+    border-radius: 15px; /* Rounded corners for modern look */
+    overflow: hidden; /* Ensures the border-radius applies to child elements */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Styling for content rows as separate boxes */
+.roadmap-entry {
+    display: flex;
+    background-color: #505050; /* Lighter color for the content rows */
+    color: #fff; /* Text color for the content rows */
+    margin: 5px 0; /* Spacing between boxes */
+    align-items: center;
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    transition: all 0.3s ease; /* Transition for hover effect */
+}
+
+/* Hover effect */
+.roadmap-entry:hover {
+    background-color: #383838; /* Slightly lighter color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Styling for each column in both header and content rows */
+.header-item, .column {
+    flex: 1;
+    text-align: center;
+    padding: 5px 10px;
+    /* ... other styles ... */
+}
+
+/* Styling for both header and content rows */
+.roadmap-header, .roadmap-entry {
+    display: flex;
+    background-color: #424242; /* Lighter color for the content rows */
+    padding: 15px; /* Increased padding */
+    align-items: center;
+}
+
+
+/* Styling specifically for the header */
+.roadmap-header {
+    background-color: #2a2a2a;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styling for each column in both header and content rows */
+.header-item, .column {
+    flex: 3;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+/* Adjustments for first and last column for better alignment */
+.header-item:first-child, .column:first-child {
+    text-align: left;
+}
+
+.header-item:last-child, .column:last-child {
+    text-align: right;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .roadmap {
+        width: 95%;
+    }
+
+    .header-item, .column {
+        padding: 5px;
+        font-size: smaller;
+        
+    }
+}
+
+/* Specific styling for the feature column */
+.column.feature, .header-item.feature {
+    text-align: center; /* Optional: Align text to left */
+}
+
+/* Specific styling for the feature column */
+.column.version, .header-item.feature {
+    text-align: center; /* Optional: Align text to left */
+}
+
+/* Status CSS for Text Color */
+.status-pending .column {
+    color: rgb(255, 255, 255); /* Or any shade of orange for 'Pending' */
+}
+
+.status-inprogress .column {
+    color: rgb(255, 255, 0); /* Or any shade of blue for 'InProgress' */
+}
+
+.status-completed .column {
+    color: rgb(0, 255, 42); /* Or any shade of green for 'Completed' */
+}
+
+
+.status-key {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    /* Additional styling as needed */
+}
+
+.key-item {
+    margin-right: 15px; /* Space between items */
+    color: #fff; /* Adjust text color as needed */
+}
+
+.key-color {
+    display: inline-block;
+    width: 15px; /* Size of the color box */
+    height: 15px;
+    border-radius: 3px; /* Optional: rounded corners */
+    margin-right: 5px;
+}
+
+.status-key {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    /* Additional styling as needed */
+}
+
+.key-item {
+    margin-right: 15px; /* Space between items */
+    color: #fff; /* Adjust text color as needed */
+}
+
+.key-color {
+    display: inline-block;
+    width: 15px; /* Size of the color box */
+    height: 15px;
+    border-radius: 3px; /* Optional: rounded corners */
+    margin-right: 5px;
+}
+
+/* Use the same color definitions as your status classes */
+.key-color.status-pending {
+    background-color: rgb(255, 255, 255); /* White color for 'Pending' */
+}
+
+.key-color.status-inprogress {
+    background-color: rgb(255, 230, 0); /* Yellow color for 'InProgress' */
+}
+
+.key-color.status-completed {
+    background-color: rgb(0, 255, 42); /* Green color for 'Completed' */
+}
