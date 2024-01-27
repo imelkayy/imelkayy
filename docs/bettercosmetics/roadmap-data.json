@@ -1,0 +1,46 @@
+[
+    {
+        "id": "ignore",
+        "_comment": "Key for Status",
+        "key": "P - Pending, I - Inprogress, C - Completed"
+    },
+    {
+        "id": "header",
+        "date": "Date Added",
+        "feature": "Feature",
+        "version": "Version",
+        "notes": "Notes"
+    },
+    {
+        "id": "1",
+        "date": "1/24",
+        "feature": "Preview",
+        "version": "Beta v0.2",
+        "notes": "Ability to preview displayed armor",
+        "status": "I"
+    },
+    {
+        "id": "2",
+        "date": "1/24",
+        "feature": "Scale Changes",
+        "version": "Beta v0.2",
+        "notes": "Scale min/max values override settings",
+        "status": "I"
+    },
+    {
+        "id": "3",
+        "date": "1/24",
+        "feature": "Part Location",
+        "version": "Beta v0.2",
+        "notes": "Part location min/max override settings",
+        "status": "I"
+    },
+    {
+        "id": "4",
+        "date": "1/24",
+        "feature": "Player Scale",
+        "version": "Beta v0.2",
+        "notes": "Default player scaling override setting",
+        "status": "I"
+    }
+]
