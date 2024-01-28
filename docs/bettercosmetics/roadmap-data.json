@@ -50,5 +50,13 @@
         "version": "???",
         "notes": "Customization over a character's bone modifiers",
         "status": "P"
+    },
+    {
+        "id": "6",
+        "date": "???",
+        "feature": "Parts",
+        "version": "???",
+        "notes": "Ears, tails, and more; supporting physics/animations by full launch.",
+        "status": "P"
     }
 ]
