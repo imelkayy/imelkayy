@@ -13,7 +13,7 @@
     },
     {
         "id": "1",
-        "date": "1/24",
+        "date": "???",
         "feature": "Preview",
         "version": "Beta v0.2",
         "notes": "Ability to preview displayed armor",
@@ -21,7 +21,7 @@
     },
     {
         "id": "2",
-        "date": "1/24",
+        "date": "???",
         "feature": "Scale Changes",
         "version": "Beta v0.2",
         "notes": "Scale min/max values override settings",
@@ -29,7 +29,7 @@
     },
     {
         "id": "3",
-        "date": "1/24",
+        "date": "???",
         "feature": "Part Location",
         "version": "Beta v0.2",
         "notes": "Part location min/max override settings",
@@ -37,10 +37,18 @@
     },
     {
         "id": "4",
-        "date": "1/24",
+        "date": "???",
         "feature": "Player Scale",
         "version": "Beta v0.2",
         "notes": "Default player scaling override setting",
         "status": "I"
+    },
+    {
+        "id": "5",
+        "date": "???",
+        "feature": "Bone Customization",
+        "version": "???",
+        "notes": "Customization over a character's bone modifiers",
+        "status": "P"
     }
 ]
