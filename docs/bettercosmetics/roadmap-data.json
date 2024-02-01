@@ -46,13 +46,21 @@
     {
         "id": "5",
         "date": "???",
+        "feature": "Full Singleplayer Compatibility",
+        "version": "Beta v0.2",
+        "notes": "All features of Better Cosmetics fixed in Singleplayer",
+        "status": "I"
+    },
+    {
+        "id": "6",
+        "date": "???",
         "feature": "Bone Customization",
         "version": "???",
         "notes": "Customization over a character's bone modifiers",
         "status": "P"
     },
     {
-        "id": "6",
+        "id": "7",
         "date": "???",
         "feature": "Parts",
         "version": "???",
