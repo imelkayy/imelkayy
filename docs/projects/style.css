@@ -9,6 +9,7 @@
 body, html {
     font-family: 'Arial', sans-serif;
     color: #fff; /* White text */
+    background-color: #121212;
     min-height: 100vh; /* Ensure full viewport height */
     display: flex;
     flex-direction: column;
@@ -23,13 +24,22 @@ main {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
     border: 2px solid #505050; /* Adjusted border color */
-    background-color: #fff; /* Background color for main content */
-    color: #000000; /* Text color for main content */
+    background-color: #121212; /* Background color for main content */
+    color: #FFFFFF; /* Text color for main content */
 }
 
 nav {
-    background-color: #1c1c1c; /* Darker background for nav */
+    background-color: #3a3a3a; /* Darker background for nav */
     padding: 10px 0;
+}
+
+a {
+    color: #e7e7e7; /* Darker background for nav */
+}
+
+/* Mouse over link */
+a:hover {
+    color: #8b8b8b;
 }
 
 nav ul {
@@ -48,19 +58,31 @@ nav ul li a {
     font-size: 1em;
 }
 
-h1, p {
-    color: #000000; /* Ensuring white text for these elements */
+h1 {
+    color: #FFFFFF; /* Ensuring white text for these elements */
+    text-decoration: underline;
+}
+
+p {
+    color: #FFFFFF; /* Ensuring white text for these elements */
 }
 
 h2 {
-    color: #000000; /* Ensuring white text for these elements */
+    color: #FFFFFF; /* Ensuring white text for these elements */
 }
 section {
-    background-color: #fff;
+    background-color: #424242;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; /* Transition for hover effect */
+}
+
+/* Hover effect */
+.section:hover {
+    background-color: #383838; /* Slightly lighter color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
 footer {
@@ -93,11 +115,6 @@ footer {
     text-decoration: none;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
 /* Footer styles */
 footer {
@@ -117,7 +134,7 @@ footer {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff; /* Light background for dropdown */
+    background-color: #121212; /* Light background for dropdown */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow */
     border-radius: 4px; /* Rounded corners */
     z-index: 1;
@@ -126,7 +143,7 @@ footer {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     text-align: center; /* Center text horizontally */
@@ -137,7 +154,7 @@ footer {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #f5f5f5; /* Slightly different background on hover */
+    background-color: #363636; /* Slightly different background on hover */
 }
 
 /* Show the dropdown content when hovering */
@@ -148,7 +165,7 @@ footer {
 /* Optionally: Style the dropdown button when active */
 .dropdown:hover .dropbtn {
     /* Additional styles for the dropdown button when active (if needed) */
-    background-color: #eeeeee; /* Example: change button background */
+    background-color: #121212; /* Example: change button background */
     border-radius: 4px; /* Rounded corners for button */
 }
 
@@ -163,4 +180,8 @@ footer {
     main {
         width: 95%;
     }
+}
+
+#custom-background {
+    background-color: #121212;
 }
