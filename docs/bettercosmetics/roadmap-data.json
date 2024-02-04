@@ -66,5 +66,13 @@
         "version": "???",
         "notes": "Ears, tails, and more; supporting physics/animations by full launch.",
         "status": "P"
+    },
+    {
+        "id": "8",
+        "date": "???",
+        "feature": "Underwear Customization",
+        "version": "Beta v0.3",
+        "notes": "Customization options for underwear",
+        "status": "P"
     }
 ]
