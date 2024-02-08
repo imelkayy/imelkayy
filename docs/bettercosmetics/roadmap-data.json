@@ -13,43 +13,43 @@
     },
     {
         "id": "1",
-        "date": "???",
+        "date": "Feb 8",
         "feature": "Preview",
         "version": "Beta v0.2",
         "notes": "Ability to preview displayed armor",
-        "status": "I"
+        "status": "C"
     },
     {
         "id": "2",
-        "date": "???",
+        "date": "Feb 8",
         "feature": "Scale Changes",
         "version": "Beta v0.2",
         "notes": "Scale min/max values override settings",
-        "status": "I"
+        "status": "C"
     },
     {
         "id": "3",
-        "date": "???",
+        "date": "Feb 8",
         "feature": "Part Location",
         "version": "Beta v0.2",
         "notes": "Part location min/max override settings",
-        "status": "I"
+        "status": "C"
     },
     {
         "id": "4",
-        "date": "???",
+        "date": "Feb 8",
         "feature": "Player Scale",
         "version": "Beta v0.2",
         "notes": "Default player scaling override setting",
-        "status": "I"
+        "status": "C"
     },
     {
         "id": "5",
-        "date": "???",
+        "date": "Feb 8",
         "feature": "Full Singleplayer Compatibility",
         "version": "Beta v0.2",
         "notes": "All features of Better Cosmetics fixed in Singleplayer",
-        "status": "I"
+        "status": "C"
     },
     {
         "id": "6",
