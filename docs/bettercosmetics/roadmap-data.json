@@ -74,5 +74,13 @@
         "version": "???",
         "notes": "Ears, tails, and more; supporting physics/animations by full launch.",
         "status": "P"
+    },
+    {
+        "id": "8",
+        "date": "???",
+        "feature": "Armor Hiding",
+        "version": "???",
+        "notes": "Ability to hide individual pieces of armor (helm, shirt, pants, boots, globes) when they are equipped",
+        "status": "P"
     }
 ]
