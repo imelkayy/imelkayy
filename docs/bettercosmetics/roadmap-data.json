@@ -63,9 +63,9 @@
         "id": "6",
         "date": "???",
         "feature": "Bone Customization",
-        "version": "???",
-        "notes": "Customization over a character's bone modifiers",
-        "status": "P"
+        "version": "Beta v0.4",
+        "notes": "Initial bone modification control system",
+        "status": "I"
     },
     {
         "id": "7",
