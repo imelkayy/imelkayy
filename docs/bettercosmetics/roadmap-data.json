@@ -82,5 +82,13 @@
         "version": "???",
         "notes": "Ability to hide individual pieces of armor (helm, shirt, pants, boots, globes) when they are equipped",
         "status": "P"
+    },
+    {
+        "id": "9",
+        "date": "???",
+        "feature": "Allow/Blocklisting Parts",
+        "version": "Beta v0.4",
+        "notes": "System to allow for admins to enable or disable usage of specified skins, markings, eyes, parts, and accessories.",
+        "status": "I"
     }
 ]
