@@ -1,0 +1,70 @@
+{
+    "settings": [
+        {
+            "id": -1,
+            "description": "Description",
+            "key": "[BetterCosmetics]",
+            "value": "Values"
+        },
+        {
+            "id": 0,
+            "description": "Open Customization UI On First Spawn",
+            "key": "BC_OpenOnSpawn",
+            "value": "FALSE"
+        },
+        {
+            "id": 1,
+            "description": "Minimum scale players should be allowed to set.",
+            "key": "BC_MinScale",
+            "value": "0.6"
+        },
+        {
+            "id": 2,
+            "description": "Maximum scale players should be allowed to set.",
+            "key": "BC_MaxScale",
+            "value": "1.5"
+        },
+        {
+            "id": 3,
+            "description": "The scale used when a player first creates their customization profile.",
+            "key": "BC_DefaultScale",
+            "value": "1"
+        },
+        {
+            "id": 4,
+            "description": "The lower bound a player is allowed to move an accessory from its initial position.",
+            "key": "BC_AccLocMin",
+            "value": "-50.0,-50.0,-50.0"
+        },
+        {
+            "id": 5,
+            "description": "The upper bound a player is allowed to move an accessory from its initial position.",
+            "key": "BC_AccLocMax",
+            "value": "50.0,50.0,50.0"
+        },
+        {
+            "id": 6,
+            "description": "The lowest allowed scale for accessories.",
+            "key": "BC_AccScaleMin",
+            "value": "0.1,0.1,0.1"
+        },
+        {
+            "id": 7,
+            "description": "The highest allowed scale for accessories.",
+            "key": "BC_AccScaleMax",
+            "value": "2.0,2.0,2.0"
+        },
+        {
+            "id": 8,
+            "description": "Smallest allowed scaling for bone customization.",
+            "key": "BC_MinBoneScale",
+            "value": "0.1,0.1,0.1"
+        },
+        {
+            "id": 9,
+            "description": "Biggest allowed scaling for bone customization.",
+            "key": "BC_MaxBoneScale",
+            "value": "1.75,1.75,1.75"
+        }
+    ]
+}

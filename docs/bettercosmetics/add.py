@@ -1,42 +1,58 @@
 import json
 
-def add_new_row_to_json(file_path):
+def add_new_row_to_json():
+    # User input for file selection
+    file_choice = input("Enter '1' to add to roadmap-data.json, '2' to add to INI-settings.json: ")
+
+    if file_choice == '1':
+        file_path = 'docs/bettercosmetics/roadmap-data.json'
+        entry_fields = [
+            ("date", "Enter Date: "),
+            ("feature", "Enter Feature: "),
+            ("version", "Enter Version: "),
+            ("notes", "Enter Notes: "),
+            ("status", "Enter Status (P/I/C): ")
+        ]
+    else:
+        file_path = 'docs/bettercosmetics/INI-settings.json'
+        entry_fields = [
+            ("description", "Enter Description: "),
+            ("key", "Enter Key: "),
+            ("value", "Enter Value: ")
+        ]
+
     try:
         with open(file_path, 'r') as file:
-            data = json.load(file)
-        
-        # Assuming the last entry is not a header or comment
-        last_id = int(data[-1]['id'])
+            if file_choice == '1':
+                data = json.load(file)
+                last_id = int(data[-1]['id']) if data else 0
+            else:
+                content = json.load(file)
+                data = content["settings"]
+                last_id = int(data[-1]['id']) if data else -1  # Start from -1 if empty
+
         new_id = str(last_id + 1)
 
-        # User input for new data
-        new_date = input("Enter Date: ")
-        new_feature = input("Enter Feature: ")
-        new_version = input("Enter Version: ")
-        new_notes = input("Enter Notes: ")
-        new_status = input("Enter Status (P/I/C): ")
-
         # New entry
-        new_entry = {
-            "id": new_id,
-            "date": new_date,
-            "feature": new_feature,
-            "version": new_version,
-            "notes": new_notes,
-            "status": new_status
-        }
+        new_entry = {"id": new_id}
+        for field, message in entry_fields:
+            new_entry[field] = input(message)
 
         # Append the new entry
         data.append(new_entry)
 
         # Write back to the JSON file
         with open(file_path, 'w') as file:
-            json.dump(data, file, indent=4)
+            if file_choice == '1':
+                json.dump(data, file, indent=4)
+            else:
+                content["settings"] = data
+                json.dump(content, file, indent=4)
 
         print("New row added successfully.")
 
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Replace 'your_json_file.json' with the path to your JSON file
-add_new_row_to_json('docs/bettercosmetics/roadmap-data.json')
+# Call the function without a file path
+add_new_row_to_json()
