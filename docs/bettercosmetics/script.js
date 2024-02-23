@@ -41,9 +41,9 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch('INI-settings.json')
             .then(response => response.json())
             .then(data => {
-                let iniString = "[BetterCosmetics]\n"; // Moved outside the forEach loop
+                let iniString = "[BetterCosmetics]\n";
                 data.settings.forEach(setting => {
-                    if (setting.id === "-1" || setting.key === "[BetterCosmetics]") {
+                    if (setting.id === "header" || setting.key === "[BetterCosmetics]") {
                         // Skip this setting
                         return;
                     }
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     `;
                     settingsTableBody.appendChild(entryDiv);
                     if (setting.id !== "header") { // Ensure it's not a header entry
-                        iniString += `${setting.key} ${setting.value}\n`; // Add only key-value pairs
+                        iniString += `${setting.key}=${setting.value}\n`; // Add only key-value pairs
                     }
                 });
                 // Append the formatted INI string to the designated section
