@@ -16,9 +16,35 @@
         <div class="key-item"><span class="key-color status-completed"></span> Completed</div>
     </div>
 
+    <div class="filter-container">
+
+        <label for="date-filter">Filter by Date:</label>
+        <select id="date-filter">
+            <option value="all">All</option>
+            <!-- JavaScript will populate this with available dates -->
+        </select>
+
+        <label for="version-filter">Filter by Version:</label>
+        <select id="version-filter">
+            <option value="all">All</option>
+            <!-- JavaScript will populate this with available versions -->
+        </select>
+
+        <label for="status-filter">Filter by Status:</label>
+        <select id="status-filter">
+            <option value="all">All</option>
+            <option value="P">Pending</option>
+            <option value="I">In Progress</option>
+            <option value="C">Completed</option>
+        </select>
+    
+    </div>
+    
+
     <div id="roadmap-entries" class="roadmap">
         <!-- Roadmap entries will be loaded here by JavaScript -->
     </div>
+
     
 
     <script src="script.js"></script>

@@ -205,3 +205,45 @@ body, html {
     border-radius: 5px; /* Rounded corners inside the text area */
     overflow-x: auto; /* Adds a horizontal scrollbar if needed */
 }
+/* General container styling */
+.filter-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Label styling */
+.filter-container label {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Dropdown styling */
+#version-filter, #date-filter, #status-filter {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Dropdown hover effect */
+#version-filter:hover, #date-filter:hover, #status-filter:hover {
+    border-color: #888;
+}
+
+/* Dropdown focus effect */
+#version-filter:focus, #date-filter:focus, #status-filter focus {
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Adjust options dropdown */
+#version-filter option, #date-filter option, #status-filter option {
+    padding: 10px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
