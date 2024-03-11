@@ -61,11 +61,11 @@
     },
     {
         "id": "6",
-        "date": "???",
+        "date": "March 3",
         "feature": "Bone Customization",
         "version": "Beta v0.4",
         "notes": "Initial bone modification control system",
-        "status": "I"
+        "status": "C"
     },
     {
         "id": "7",
@@ -85,17 +85,17 @@
     },
     {
         "id": "9",
-        "date": "???",
+        "date": "March 3",
         "feature": "Allow/Blocklisting Parts",
         "version": "Beta v0.4",
         "notes": "System to allow for admins to enable or disable usage of specified skins, markings, eyes, parts, and accessories.",
-        "status": "I"
+        "status": "C"
     },
     {
         "id": "10",
         "date": "???",
         "feature": "Fat Modifiers",
-        "version": "v0.5",
+        "version": "Beta v0.5",
         "notes": "Custom system to modify fat/muscles, replacing the vanilla one.",
         "status": "I"
     }
