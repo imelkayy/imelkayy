@@ -65,6 +65,18 @@
             "description": "Biggest allowed scaling for bone customization.",
             "key": "BC_MaxBoneScale",
             "value": "1.75,1.75,1.75"
+        },
+        {
+            "id": "10",
+            "description": "Should players be allowed to utilize Better Cosmetics' Bone Modification system?",
+            "key": "BC_EnableBoneMods",
+            "value": "true"
+        },
+        {
+            "id": "11",
+            "description": "Should experimental parts be enabled? IMPORTANT: Experimental parts may be removed, changed, modified, etc at ANY time without warning. By enabling this you understand any expeirmental parts used may change at any time.",
+            "key": "BC_ExperimentalEnabled",
+            "value": "false"
         }
     ]
 }
