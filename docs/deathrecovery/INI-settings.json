@@ -1,0 +1,46 @@
+{
+    "settings": [
+        {
+            "id": "header",
+            "description": "Description",
+            "key": "[APDeathRecovery]",
+            "value": "Values"
+        },
+        {
+            "id": 0,
+            "description": "The time, in seconds, before a player is allowed to recover their items AFTER having recovered them.",
+            "key": "APDR_Cooldown",
+            "value": "0.0"
+        },
+        {
+            "id": 1,
+            "description": "If enabled, players will recover their items when they respawn.",
+            "key": "APDR_RecoverOnDeath",
+            "value": "false"
+        },
+        {
+            "id": 2,
+            "description": "Should the recovery stone be destroyed after use?",
+            "key": "APDR_DestroyOnUse",
+            "value": "false"
+        },
+        {
+            "id": 3,
+            "description": "Should the recovery stone be destroyed after use?",
+            "key": "APDR_EquipArmor",
+            "value": "false"
+        },
+        {
+            "id": 4,
+            "description": "Should players be limited to one stone across the whole map?",
+            "key": "APDR_OnlyOne",
+            "value": "false"
+        },
+        {
+            "id": 5,
+            "description": "Should stone usage be restricted to the owner of the stone?",
+            "key": "APDR_RestrictToOwner",
+            "value": "false"
+        }
+    ]
+}
