@@ -1,0 +1,22 @@
+{
+    "settings": [
+        {
+            "id": "header",
+            "description": "Description",
+            "key": "[TypingBubbles]",
+            "value": "Values"
+        },
+        {
+            "id": 0,
+            "description": "The distance, in cm, a typing bubble should be seen from a player typing.",
+            "key": "ChatB_BubbleDraw",
+            "value": "3000.0"
+        },
+        {
+            "id": 1,
+            "description": "The scale that a typing bubble should appear as.",
+            "key": "ChatB_BubbleSize",
+            "value": "1"
+        }
+    ]
+}
