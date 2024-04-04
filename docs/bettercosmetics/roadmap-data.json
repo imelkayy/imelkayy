@@ -138,5 +138,37 @@
         "version": "???",
         "notes": "Fix Goblin Ear textures, move Goblin Ears out of Experimental Parts",
         "status": "P"
+    },
+    {
+        "id": "16",
+        "date": "Planned",
+        "feature": "Direwolf Head",
+        "version": "???",
+        "notes": "Implementation of a Direwolf head-replacement part",
+        "status": "P"
+    },
+    {
+        "id": "17",
+        "date": "Direwolf tail",
+        "feature": "Planned",
+        "version": "???",
+        "notes": "Implementation of a Direwolf Tail part",
+        "status": "P"
+    },
+    {
+        "id": "18",
+        "date": "Planned",
+        "feature": "Wolf Ears",
+        "version": "???",
+        "notes": "Implementation of a 'Wolf Ears' part",
+        "status": "P"
+    },
+    {
+        "id": "19",
+        "date": "Planned",
+        "feature": "Raptor Tail",
+        "version": "???",
+        "notes": "Implementation of a Raptor Tail part",
+        "status": "P"
     }
 ]
