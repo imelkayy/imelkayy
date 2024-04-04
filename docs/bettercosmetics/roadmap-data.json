@@ -98,5 +98,45 @@
         "version": "Beta v0.5",
         "notes": "Custom system to modify fat/muscles, replacing the vanilla one.",
         "status": "I"
+    },
+    {
+        "id": "11",
+        "date": "Planned",
+        "feature": "Useable Fly Wings (Internal functional code)",
+        "version": "???",
+        "notes": "Internal functionality for Flight Wings",
+        "status": "P"
+    },
+    {
+        "id": "12",
+        "date": "Planned",
+        "feature": "Useable Glide Wings (Internal functional code)",
+        "version": "???",
+        "notes": "Internal functionality fot Glide Wings",
+        "status": "P"
+    },
+    {
+        "id": "13",
+        "date": "Planned",
+        "feature": "Elf Ears (Texture fixes)",
+        "version": "???",
+        "notes": "Fix textures for Elf Ears, move Elf Ears out of Experimental Parts",
+        "status": "P"
+    },
+    {
+        "id": "14",
+        "date": "Planned",
+        "feature": "Eldrin Ears (Texture fixes)",
+        "version": "???",
+        "notes": "Fix Eldrin Ear textures, move Eldrin Ears out of Experimental Parts",
+        "status": "P"
+    },
+    {
+        "id": "15",
+        "date": "Planned",
+        "feature": "Goblin Ears (Texture fixes)",
+        "version": "???",
+        "notes": "Fix Goblin Ear textures, move Goblin Ears out of Experimental Parts",
+        "status": "P"
     }
 ]
