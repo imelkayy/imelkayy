@@ -22,34 +22,36 @@ def add_new_row_to_json():
         ]
 
     try:
-        with open(file_path, 'r') as file:
-            if file_choice == '1':
-                data = json.load(file)
-                last_id = int(data[-1]['id']) if data else 0
-            else:
-                content = json.load(file)
-                data = content["settings"]
-                last_id = int(data[-1]['id']) if data else -1  # Start from -1 if empty
+        while True:
+            with open(file_path, 'r') as file:
+                if file_choice == '1':
+                    data = json.load(file)
+                    last_id = int(data[-1]['id']) if data else 0
+                else:
+                    content = json.load(file)
+                    data = content["settings"]
+                    last_id = int(data[-1]['id']) if data else -1  # Start from -1 if empty
 
-        new_id = str(last_id + 1)
+            new_id = str(last_id + 1)
 
-        # New entry
-        new_entry = {"id": new_id}
-        for field, message in entry_fields:
-            new_entry[field] = input(message)
+            # New entry
+            new_entry = {"id": new_id}
+            for field, message in entry_fields:
+                new_entry[field] = input(message)
 
-        # Append the new entry
-        data.append(new_entry)
+            # Append the new entry
+            data.append(new_entry)
 
-        # Write back to the JSON file
-        with open(file_path, 'w') as file:
-            if file_choice == '1':
-                json.dump(data, file, indent=4)
-            else:
-                content["settings"] = data
-                json.dump(content, file, indent=4)
+            # Write back to the JSON file
+            with open(file_path, 'w') as file:
+                if file_choice == '1':
+                    json.dump(data, file, indent=4)
+                else:
+                    content["settings"] = data
+                    json.dump(content, file, indent=4)
 
-        print("New row added successfully.")
+            if input("New row added successfully. Would you like to add another? (yes/no) ") != 'yes':
+                break
 
     except Exception as e:
         print(f"An error occurred: {e}")
