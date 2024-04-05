@@ -79,9 +79,9 @@
         "id": "8",
         "date": "???",
         "feature": "Armor Hiding",
-        "version": "???",
+        "version": "Beta v0.5",
         "notes": "Ability to hide individual pieces of armor (helm, shirt, pants, boots, globes) when they are equipped",
-        "status": "P"
+        "status": "I"
     },
     {
         "id": "9",
@@ -95,9 +95,9 @@
         "id": "10",
         "date": "???",
         "feature": "Fat Modifiers",
-        "version": "Beta v0.5",
+        "version": "???",
         "notes": "Custom system to modify fat/muscles, replacing the vanilla one.",
-        "status": "I"
+        "status": "P"
     },
     {
         "id": "11",
