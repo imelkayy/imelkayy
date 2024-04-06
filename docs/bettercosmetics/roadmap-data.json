@@ -177,6 +177,22 @@
         "feature": "Tattoo Support",
         "version": "???",
         "notes": "Fix instances where Tattoos/Warpaint don't properly (re)apply to the player when using the Mirror and custom skins",
+        "status": "P"
+    },
+    {
+        "id": "21",
+        "date": "Planned",
+        "feature": "Custom Tattoo System",
+        "version": "Beta v0.5",
+        "notes": "Custom Tattoo System supporting 4x vanilla resolution, additions NOT requiring a mod update, no increase in mod size, and efficient caching",
         "status": "I"
+    },
+    {
+        "id": "22",
+        "date": "Planned",
+        "feature": "Female Preview Improvements",
+        "version": "???",
+        "notes": "Improve the look of the female Preview with BC scissors and the Mirror",
+        "status": "P"
     }
 ]
