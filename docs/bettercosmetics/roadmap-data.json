@@ -194,5 +194,13 @@
         "version": "???",
         "notes": "Improve the look of the female Preview with BC scissors and the Mirror",
         "status": "P"
+    },
+    {
+        "id": "23",
+        "date": "Planned",
+        "feature": "Enhanced Character Preview",
+        "version": "???",
+        "notes": "Better Character Preview, including (potentially) different scenes, better camera locations, better lighting, etc",
+        "status": "P"
     }
 ]
