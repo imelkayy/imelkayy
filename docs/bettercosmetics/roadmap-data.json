@@ -199,8 +199,16 @@
         "id": "23",
         "date": "Planned",
         "feature": "Enhanced Character Preview",
+        "version": "Beta v0.5",
+        "notes": "Better Character Preview, including better camera locations, and FOV",
+        "status": "I"
+    },
+    {
+        "id": "24",
+        "date": "Planned",
+        "feature": "Character Preview Scenes",
         "version": "???",
-        "notes": "Better Character Preview, including (potentially) different scenes, better camera locations, better lighting, etc",
+        "notes": "Different scene option(s) for the character preview",
         "status": "P"
     }
 ]
