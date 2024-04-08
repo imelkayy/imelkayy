@@ -151,17 +151,17 @@
         "id": "17",
         "date": "Planned",
         "feature": "Direwolf tail",
-        "version": "???",
+        "version": "Beta v0.5",
         "notes": "Implementation of a Direwolf Tail part",
-        "status": "P"
+        "status": "I"
     },
     {
         "id": "18",
         "date": "Planned",
         "feature": "Wolf Ears",
-        "version": "???",
+        "version": "Beta v0.5",
         "notes": "Implementation of a 'Wolf Ears' part",
-        "status": "P"
+        "status": "I"
     },
     {
         "id": "19",
