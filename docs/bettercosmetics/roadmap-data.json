@@ -149,8 +149,8 @@
     },
     {
         "id": "17",
-        "date": "Direwolf tail",
-        "feature": "Planned",
+        "date": "Planned",
+        "feature": "Direwolf tail",
         "version": "???",
         "notes": "Implementation of a Direwolf Tail part",
         "status": "P"
