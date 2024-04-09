@@ -175,9 +175,9 @@
         "id": "20",
         "date": "Planned",
         "feature": "Tattoo Support",
-        "version": "???",
+        "version": "Beta v0.5",
         "notes": "Fix instances where Tattoos/Warpaint don't properly (re)apply to the player when using the Mirror and custom skins",
-        "status": "P"
+        "status": "I"
     },
     {
         "id": "21",
