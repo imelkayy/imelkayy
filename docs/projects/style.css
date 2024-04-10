@@ -76,8 +76,15 @@ nav {
 }
 
 a {
-    color: #e7e7e7; /* Darker background for nav */
-}
+    color: #e2e2e2; /* Bright blue color for the link */
+    text-decoration: underline; /* Underline the link */
+    transition: background-color 0.5s ease; /* Smooth transition for the background color */
+  }
+  
+  a:hover, a:focus {
+    color: #0056b3; /* Slightly darker blue on hover/focus */
+  }
+  
 
 /* Mouse over link */
 a:hover {
@@ -126,6 +133,9 @@ section {
     background-color: #383838; /* Slightly lighter color on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
+
+
+
 
 footer {
     background-color: #5865F2; /* Discord's brand color */
