@@ -1,0 +1,130 @@
+<style>
+/* Basic styling for navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+nav li {
+    position: relative;
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+/* Dropdown Content styling */
+.dropdown-content, .side-dropdown {
+    display: none;
+    position: absolute;
+    min-width: 160px; /* Minimum width */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Box shadow for dropdown */
+    z-index: 1;
+}
+
+/* Positioning for side dropdown */
+.side-dropdown {
+    left: 100%;
+    top: 0;
+}
+
+/* Show dropdown on hover */
+nav li:hover > .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    float: none;
+}
+
+/* Direct child dropdown menu positioning */
+.dropdown-content li:hover > .side-dropdown {
+    display: block;
+}
+    
+    </style>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="">Projects</a>
+                <ul class="dropdown-content">
+                    <li><a href="../projects/modmenu.html">Mod Menu</a></li>
+
+                    <li class="dropdown">
+                        <a href="deathrecovery.html">Death Recovery</a> <!-- Updated to prevent page navigation -->
+                        <ul class="dropdown-content side-dropdown">
+                            <li><a href="../deathrecovery/INISettings.html" target="_blank" rel="noopener noreferrer">INI Settings</a></li>
+                            <!-- Add more submenu items here as needed -->
+                        </ul>
+                    </li>
+
+                    <li><a href="../projects/gotadditions.html">GoT Additions</a></li>
+
+                    <li class="dropdown">
+                        <a href="bettercosmetics.html">Better Cosmetics</a>
+                        <ul class="dropdown-content side-dropdown">
+                            <li><a href="../bettercosmetics/INISettings.html" target="_blank" rel="noopener noreferrer">INI Settings</a></li>
+                            <li><a href="../bettercosmetics/roadmap.html" target="_blank" rel="noopener noreferrer">Road Map</a></li>
+                            <li><a href="tattooHowTo.html">Tattoo Tutorial</a></li>
+                            <!-- More links for Better Cosmetics -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="typingbubble.html">Typing Bubbles</a> <!-- Make this a dropdown trigger -->
+                        <ul class="dropdown-content side-dropdown">
+                            <li><a href="../typingbubbles/INISettings.html" target="_blank" rel="noopener noreferrer">INI Settings</a></li>
+                            <!-- Add more submenu items for Typing Bubbles here -->
+                        </ul>
+                    </li>
+                    <!-- Add more project links here -->
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)">Commissioned Projects</a>
+                <ul class="dropdown-content">
+                    <li><a href="../projects/chronoscommunitymod.html">Chronos Community Mod</a></li>
+                    <li><a href="../projects/vanquishedmod.html">Vanquished Gaming Community Mod</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<script>
+$(document).ready(function() {
+    // Hover over any .dropdown
+    $('.dropdown').hover(function() {
+        // Hide any visible side-dropdowns first
+        $('.side-dropdown').css('display', 'none');
+        // Then show the direct child dropdown-content of the hovered item
+        $(this).children('.dropdown-content').stop(true, true).slideDown();
+    }, function() {
+        // Hide the dropdown-content when not hovered
+        $(this).children('.dropdown-content').stop(true, true).slideUp();
+    });
+
+    // Handle hover for nested dropdowns (side-dropdowns)
+    $('.dropdown-content li').hover(function(e) {
+        // Prevent event propagation to avoid triggering the parent dropdown's hover out event
+        e.stopPropagation();
+        // Show only this side-dropdown
+        $(this).children('.side-dropdown').stop(true, true).fadeIn();
+    }, function(e) {
+        // Prevent event propagation
+        e.stopPropagation();
+        // Hide this side-dropdown
+        $(this).children('.side-dropdown').stop(true, true).fadeOut();
+    });
+});
+
+
+
+
+</script>
