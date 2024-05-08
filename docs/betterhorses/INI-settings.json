@@ -1,0 +1,16 @@
+{
+    "settings": [
+        {
+            "id": "header",
+            "description": "Description",
+            "key": "[BetterHorses]",
+            "value": "Values"
+        },
+        {
+            "id": 0,
+            "description": "EXAMPLE",
+            "key": "BH_EXAMPLE",
+            "value": "EXAMPLE"
+        }
+    ]
+}

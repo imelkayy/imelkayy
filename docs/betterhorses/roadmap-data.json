@@ -1,0 +1,14 @@
+[
+    {
+        "id": "ignore",
+        "_comment": "Key for Status",
+        "key": "P - Pending, I - Inprogress, C - Completed"
+    },
+    {
+        "id": "header",
+        "date": "Date Added",
+        "feature": "Feature",
+        "version": "Version",
+        "notes": "Notes"
+    }
+]
