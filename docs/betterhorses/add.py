@@ -14,7 +14,7 @@ def add_new_row_to_json():
             ("status", "Enter Status (P/I/C): ")
         ]
     else:
-        file_path = 'docs/horses/INI-settings.json'
+        file_path = 'docs/betterhorses/INI-settings.json'
         entry_fields = [
             ("description", "Enter Description: "),
             ("key", "Enter Key: "),
