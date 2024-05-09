@@ -8,9 +8,45 @@
         },
         {
             "id": 0,
-            "description": "EXAMPLE",
-            "key": "BH_EXAMPLE",
-            "value": "EXAMPLE"
+            "description": "How good a horse's handling is without a saddle. 1.0 is normal.",
+            "key": "BH_DefaultHandling",
+            "value": "0.315"
+        },
+        {
+            "id": "1",
+            "description": "How good a horse's handling is with a simple harness. 1.0 is normal.",
+            "key": "BH_SimpleHarnessHandling",
+            "value": "0.842"
+        },
+        {
+            "id": "2",
+            "description": "How good a horse's handling is with a simple saddle. 1.0 is normal.",
+            "key": "BH_SimpleSaddleHandling",
+            "value": "1.0"
+        },
+        {
+            "id": "3",
+            "description": "No Saddlebag Slot Count",
+            "key": "BH_NoBagSlots",
+            "value": "12"
+        },
+        {
+            "id": "4",
+            "description": "The total number of slots available for horses with a Small saddlebag equipped.",
+            "key": "BH_SmallBagSlots",
+            "value": "18"
+        },
+        {
+            "id": "5",
+            "description": "The total number of slots available for horses with a Medium saddlebag equipped.",
+            "key": "BH_MediumBagSlots",
+            "value": "24"
+        },
+        {
+            "id": "6",
+            "description": "The total number of slots available for horses with a Large saddlebag equipped.",
+            "key": "BH_LargeBagSlots",
+            "value": "30"
         }
     ]
 }
