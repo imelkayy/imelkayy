@@ -9,6 +9,79 @@
         "date": "Date Added",
         "feature": "Feature",
         "version": "Version",
-        "notes": "Notes"
+        "notes": "Notes",
+        "status": "Status"
+    },
+    {
+        "id": "0",
+        "date": "???",
+        "feature": "Saddlebags",
+        "version": "v0.3 Beta",
+        "notes": "Three tiers of saddlebags to increase slot-count of Horse inventories",
+        "status": "I"
+    },
+    {
+        "id": "1",
+        "date": "???",
+        "feature": "Configuration Options",
+        "version": "v0.3 Beta",
+        "notes": "Configuration for horse handling dependant on equipped saddle (and no saddle option)",
+        "status": "I"
+    },
+    {
+        "id": "2",
+        "date": "???",
+        "feature": "Vanner Carriage",
+        "version": "v0.4 Beta",
+        "notes": "Carriage equippable to Vanner horse; capable of carrying more people, slightly increased slot-count on horse",
+        "status": "P"
+    },
+    {
+        "id": "3",
+        "date": "???",
+        "feature": "General Cart",
+        "version": "v0.4 Beta",
+        "notes": "Cart equippable to Draft horse; increases slot-count of the Draft and reduces weight when equipped",
+        "status": "P"
+    },
+    {
+        "id": "4",
+        "date": "???",
+        "feature": "Wood Cart",
+        "version": "v0.4 Beta",
+        "notes": "Cart equippable to Draft horse; increases slot-count of the Draft and greatly reduces weight of Wood when equipped",
+        "status": "P"
+    },
+    {
+        "id": "5",
+        "date": "???",
+        "feature": "Donkey",
+        "version": "Undetermined",
+        "notes": "Donkey animal, smaller & nimbler than other horses.",
+        "status": "P"
+    },
+    {
+        "id": "6",
+        "date": "???",
+        "feature": "Donkey Cart",
+        "version": "Undetermined",
+        "notes": "Cart equippable to Donkey. Provides better speed/turning than horse carts, and other perks.",
+        "status": "P"
+    },
+    {
+        "id": "7",
+        "date": "???",
+        "feature": "Slaughter Mechanic",
+        "version": "Undetermined",
+        "notes": "Ovis-like mechanic where Horses can be slaughtered, by their owners, when a metal melee weapon is equipped",
+        "status": "P"
+    },
+    {
+        "id": "8",
+        "date": "???",
+        "feature": "Horseshoes",
+        "version": "Undetermined",
+        "notes": "Horseshoes that can be equipped onto a horse; increases move speed & decreases staming drain. Has durability.",
+        "status": "P"
     }
 ]
