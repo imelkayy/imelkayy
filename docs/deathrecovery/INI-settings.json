@@ -41,6 +41,18 @@
             "description": "Should stone usage be restricted to the owner of the stone?",
             "key": "APDR_RestrictToOwner",
             "value": "false"
+        },
+        {
+            "id": 6,
+            "description": "List of item blueprint paths to be excluded from being recovered by APDR. Separate entries with commas.",
+            "key": "APDR_PreventRecoverItems",
+            "value": ""
+        },
+        {
+            "id": 7,
+            "description": "Should blueprints be allowed to be recovered by APDR?",
+            "key": "APDR_AllowBlueprints",
+            "value": "true"
         }
     ]
 }
