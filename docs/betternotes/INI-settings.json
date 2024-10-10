@@ -1,0 +1,76 @@
+{
+    "settings": [
+        {
+            "id": "header",
+            "description": "Description",
+            "key": "[BetterNotes]",
+            "value": "Values"
+        },
+        {
+            "id": 0,
+            "description": "How many characters should all note titles be limited to?",
+            "key": "BN_TitleCharLimit",
+            "value": "48"
+        },
+        {
+            "id": 1,
+            "description": "How many characters should all note descriptions be limited to?",
+            "key": "BN_DescCharLimit",
+            "value": "200"
+        },
+        {
+            "id": 2,
+            "description": "How many characters should all note pages be limited to?",
+            "key": "BN_PageCharLimit",
+            "value": "2650"
+        },
+        {
+            "id": 3,
+            "description": "How many characters should all note custom signatures be limited to? This is ignored if custom signatues are disabled.",
+            "key": "BN_SignCharLimit",
+            "value": "24"
+        },
+        {
+            "id": 4,
+            "description": "Should players be allowed to add custom signatures to journals?",
+            "key": "BN_JournalAllowCustomSign",
+            "value": "false"
+        },
+        {
+            "id": 5,
+            "description": "How much a single journal item should weigh.",
+            "key": "BN_JournalWeight",
+            "value": "0.05"
+        },
+        {
+            "id": 6,
+            "description": "The maximum amount of pages allowed per journal. Value MUST be even; otherwise it will be rounded up to the nearest even integer.",
+            "key": "BN_JournalMaxPages",
+            "value": "50"
+        },
+        {
+            "id": 7,
+            "description": "Should players be allowed to add custom signature names to documents?",
+            "key": "BN_DocumentAllowCustomSign",
+            "value": "false"
+        },
+        {
+            "id": 8,
+            "description": "How much a single document item should weigh.",
+            "key": "BN_DocumentWeight",
+            "value": "0.05"
+        },
+        {
+            "id": 9,
+            "description": "Should players be allowed to add custom signature names to letters?",
+            "key": "BN_LetterAllowCustomSign",
+            "value": "false"
+        },
+        {
+            "id": 10,
+            "description": "How much a single letter item should weigh.",
+            "key": "BN_LetterWeight",
+            "value": "0.05"
+        }
+    ]
+}
