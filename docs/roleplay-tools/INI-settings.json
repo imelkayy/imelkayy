@@ -8,66 +8,114 @@
         },
         {
             "id": 0,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "The maximum number of a class points a player is allowed to select when setting up their characters. Admins will still be able to add more classes manually, up to the Maximum allowed class number.",
+            "key": "RPT_MaxClassSelections",
+            "value": "1"
         },
         {
             "id": 1,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "The ABSOLUTE maximum number of a class points a player may have. Does NOT control the number allowed to be selected by the player, but the total amount they can have (via admins adding classes).",
+            "key": "RPT_MaxNumClasses",
+            "value": "10"
         },
         {
             "id": 2,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "Should the class selection UI be opened on-spawn?",
+            "key": "RPT_ClassUISpawn",
+            "value": "false"
         },
         {
             "id": 3,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "The minimum number of class points a player MUST select.",
+            "key": "RPT_MinClassSelections",
+            "value": "1"
         },
         {
             "id": 4,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "Should players in Creative Mode be allowed to craft in all class benches, regardless of their classes?",
+            "key": "RPT_AllowBenchGCMCrafting",
+            "value": "true"
         },
         {
             "id": 5,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "Should players be prevented from stealing the worn armor from players who are surrendering?",
+            "key": "RPT_PreventSurrenderArmorTheft",
+            "value": "true"
         },
         {
             "id": 6,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "Enable the alternate player name feature.",
+            "key": "RPT_EnableAltName",
+            "value": "true"
         },
         {
             "id": 7,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "Should players only be allowed to set their alternate name on spawn?",
+            "key": "RPT_AltNameOnlyOnSpawn",
+            "value": "true"
         },
         {
             "id": 8,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "The minimum amount of minutes that must pass for a player to be able to switch their name to and from their alternate.\nSet to 0.0 for no cooldown.",
+            "key": "RPT_AltNameCooldownInMin",
+            "value": "5.0"
         },
         {
             "id": 9,
-            "description": "",
-            "key": "",
-            "value": ""
+            "description": "If a player is currently under cooldown to change between their alt and normal names, always allow them to return to their normal name.",
+            "key": "RPT_AltNameAlwaysAllowReturnToNormal",
+            "value": "false"
         },
         {
             "id": 10,
+            "description": "The default alternate name used when players are setting up.",
+            "key": "RPT_DefaultAltName",
+            "value": " "
+        },
+        {
+            "id": 11,
+            "description": "The maximum number of characters allowed in a players's alternate name.",
+            "key": "RPT_AltNameMaxChars",
+            "value": "24"
+        },
+        {
+            "id": 12,
+            "description": "Enable logging for when players access the inventory of another player.",
+            "key": "RPT_LogPlayerInventoryAccess",
+            "value": "true"
+        },
+        {
+            "id": 13,
+            "description": "Enable logging for when players access the inventory of a non-owned structure.",
+            "key": "RPT_LogStructureInventoryAccess",
+            "value": "true"
+        },
+        {
+            "id": 14,
+            "description": "Enable logging for when players access the inventory of a non-owned (tamed) dino.",
+            "key": "RPT_LogDinoInventoryAccess",
+            "value": "true"
+        },
+        {
+            "id": 15,
+            "description": "Enable logging for when admins make changes to any RPTools feature, or player data.",
+            "key": "RPT_LogAdminEvents",
+            "value": "true"
+        },
+        {
+            "id": 16,
+            "description": "Enable logging for when RPTools makes any changes to a player's name.",
+            "key": "RPT_LogAllNameChanges",
+            "value": "true"
+        },
+        {
+            "id": 17,
+            "description": "Enable logging for when players enable or disable their alternate name.",
+            "key": "RPT_LogAltNameToggles",
+            "value": "true"
+        },
+        {
+            "id": 18,
             "description": "",
             "key": "",
             "value": ""
