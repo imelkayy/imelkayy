@@ -57,8 +57,14 @@
         {
             "id": 8,
             "description": "The minimum amount of minutes that must pass for a player to be able to switch their name to and from their alternate.\nSet to 0.0 for no cooldown.",
-            "key": "RPT_AltNameCooldownInMin",
+            "key": "RPT_AltNameToggleCDInMin",
             "value": "5.0"
+        },
+        {
+            "id": 18,
+            "description": "The minimum amount of minutes that must pass before a player is allowed to change their alternate name again. Only used if alternate names can be set after initial setup.",
+            "key": "RPT_AltNameChangeCDInMin",
+            "value": "600.0"
         },
         {
             "id": 9,
@@ -115,7 +121,7 @@
             "value": "true"
         },
         {
-            "id": 18,
+            "id": 19,
             "description": "",
             "key": "",
             "value": ""
